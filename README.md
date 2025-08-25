@@ -68,12 +68,39 @@ gcc imc.c -o imc
 
 5. Faça commit e push do `imc.c`.
 
+# Parte 3 – Troca de Valores com Ponteiros
+
+Agora vamos introduzir o conceito de ponteiros.
+
+1.	Crie um novo arquivo chamado troca.c.
+2.	O programa deve:
+   - Declarar duas variáveis inteiras a e b.
+   - Ler os valores de a e b digitados pelo usuário.
+   - Criar uma função chamada trocar que receba ponteiros para a e b.
+   - Dentro da função, trocar os valores de a e b usando os operadores * e &.
+   - Mostrar os valores de a e b antes e depois da troca.
+
+Exemplo de execução:
+
+```
+Digite o valor de a: 10
+Digite o valor de b: 20
+Antes da troca: a = 10, b = 20
+Depois da troca: a = 20, b = 10
+```
+
+3.	Compile e execute para validar
+
+4.	Faça commit e push do troca.c.
+
+
 ---
 
 ## Entregáveis
 
 - `hello_world.c` com seu nome no output.
 - `imc.c` com o cálculo do IMC formatado com duas casas decimais.
+- `troca.c` com a função de troca de valores implementada com ponteiros (* e &).
 - Este `README.md` atualizado com seu nome.
 
 ---
