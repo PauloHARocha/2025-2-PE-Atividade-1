@@ -1,5 +1,7 @@
 # Tabela ASCII (0–127)
 
+- Tabela para auxiliar com caracteres em C
+
 | Dec | Hex | Oct | Char | Descrição        |
 |-----|-----|-----|------|------------------|
 | 0   | 00  | 000 | NUL  | Null             |
