@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int v[3] = {10, 20, 30};
 
     printf("Endereco v[0] = %p, valor = %d\n", &v[0], v[0]);

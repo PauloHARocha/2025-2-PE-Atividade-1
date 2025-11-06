@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int mat[3][3], x, achou = 0;
 
     // entrada da matriz

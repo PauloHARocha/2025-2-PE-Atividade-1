@@ -2,7 +2,7 @@
 
 #define TAMANHO 3
 
-int main(void) {
+int main() {
     int mat[TAMANHO][TAMANHO];               // 3 linhas x 3 colunas
 
     // int mat[3][3] = {

@@ -8,7 +8,7 @@ void dobra(int m[3][3]) {
             m[i][j] *= 2;
 }
 
-int main(void) {
+int main() {
     int m[3][3];
 
     // lê matriz

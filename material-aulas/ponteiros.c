@@ -10,7 +10,7 @@
  * - Com ponteiros, conseguimos manipular dados indiretamente.
  */
 
-int main(void) {
+int main() {
     int x = 42;        // variável comum, armazenada na memória (stack)
     int *p = &x;       // ponteiro p recebe o endereço de x
 
