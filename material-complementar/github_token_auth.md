@@ -1,7 +1,7 @@
 # Como Fazer Push no GitHub com Token de Acesso Pessoal
 
 ## 1. Criar o Token
-- Vá em **GitHub → Settings → Developer settings → Fine-grained tokens**
+- Vá em **GitHub -> Settings -> Developer settings -> Fine-grained tokens**
 - Escolha o repositório desejado
 - Dê permissão:
   - **Contents: Read and write**
