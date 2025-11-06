@@ -307,3 +307,59 @@ Faça um programa que armazene em um registro de dados (estrutura composta) os d
 Faça um programa que leia um vetor com os dados de 5 carros: marca (máximo 15 letras), ano e preço. Leia um valor p e mostre as informações de todos os carros com preço menor que p. Repita este processo até que seja lido um valor p = 0. 
 
 ---
+
+## Arquivos
+
+### Questão 42
+Faça um programa que grave duas linhas em um arquivo texto chamado "saida.txt". A primeira linha deve conter o seu nome e a segunda o nome do curso. Depois leia o conteúdo do arquivo e mostre no terminal
+
+### Questão 43
+Faça um programa que leia de um arquivo numeros.txt uma lista de inteiros, calcule a média e grave em um novo arquivo media.txt a média e a quantidade de valores lidos.
+
+### Questão 44
+
+Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas linhas esse arquivo possui.
+
+### Questão 45
+
+Faça um programa que receba do usuário um arquivo texto e um caractere. Mostre na tela quantas vezes aquele caractere ocorre dentro do arquivo.
+
+### Questão 46
+
+Faça um programa que receba dois arquivos do usuário e crie um terceiro arquivo com o conteúdo dos dois primeiros juntos (o conteúdo do primeiro seguido do conteúdo do segundo).
+
+### Questão 47
+
+Faça um programa que leia o conteúdo de um arquivo texto e conte quantas palavras ele possui.
+Uma palavra é definida como qualquer sequência de caracteres delimitada por espaços ou quebras de linha.
+
+
+---
+
+## Matrizes
+
+### Questão 48
+Faça um programa que leia duas matrizes A e B de tamanho 3 x 3 e calcule C = A × B.
+
+### Questão 49
+Leia uma matriz de 3 x 3 elementos. Calcule e imprima a sua transposta.
+
+### Questão 50
+Leia uma matriz de 3 x 3 elementos. Calcule a soma dos elementos que estão na diagonal principal.
+
+### Questão 51
+Gere matriz 4 x 4 com valores no intervalo [1, 20]. Escreva um programa que transforme a matriz gerada numa matriz triangular inferior, ou seja, atribuindo zero a todos os elementos acima da diagonal principal. Imprima a matriz original e a matriz transformada.
+
+### Questão 52
+Leia uma matriz 3 x 3 e escreva o maior valor e o menor valor contidos nela, informando também suas respectivas posições (linha e coluna).
+
+### Questão 53
+Leia uma matriz 3 x 3 e verifique se ela é simétrica.
+
+### Questão 54
+Faça um programa que leia duas matrizes 2 x 2 com valores reais.
+Ofereça ao usuário um menu de opções:
+- somar as duas matrizes
+- subtrair a primeira matriz da segunda
+- adicionar uma constante às duas matrizes
+- imprimir as matrizes.
