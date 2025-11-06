@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+/*
+fopen()
+Abre (ou cria) um arquivo e devolve um ponteiro do tipo FILE.
+FILE *fopen(const char *nome_arquivo, const char *modo);
+Retorna NULL se ocorrer erro na abertura (ex: arquivo inexistente, permissão negada).
+O segundo parâmetro define o modo de abertura: "r", "w", "a", etc.
+
+fclose()
+Fecha o arquivo aberto e libera os recursos do sistema.
+int fclose(FILE *arquivo);
+Retorna 0 se for fechado com sucesso, ou EOF se ocorrer erro.
+É importante sempre fechar arquivos abertos para garantir a gravação dos buffers no disco.
+*/
+
 int main() {
     FILE *arquivo;
 
@@ -11,7 +25,7 @@ int main() {
     }
 
     fputs("Ola, arquivo!\n", arquivo);  // grava 1 linha
-    fclose(arquivo);                    // sempre feche
+    fclose(arquivo);                    // fecha arquivo
 
     // reabre para leitura
     arquivo = fopen("hello_arquivo_2.txt", "r");

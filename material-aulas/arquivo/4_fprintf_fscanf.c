@@ -13,7 +13,7 @@ retorna a quantidade de itens lidos com sucesso, ou EOF se alcançar o fim do ar
 fscanf() lê até encontrar um espaço, quebra de linha ou fim do arquivo. Para ler linhas inteiras, use fgets().
 */
 
-int main(void) {
+int main() {
     FILE *in  = fopen("clima.txt", "r");
     FILE *out = fopen("relatorio_clima.txt", "w");
 

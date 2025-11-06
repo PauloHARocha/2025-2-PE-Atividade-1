@@ -14,42 +14,42 @@ Observação: após usar o arquivo, feche-o sempre com fclose().
 int main() {
     FILE *fp;
 
-    // // "w": cria/trunca e escreve 1a linha
-    // fp = fopen("modos.txt", "w");
-    // if (fp == NULL) { 
-    //     puts("Erro ao abrir arquivo [w]"); 
-    //     return 1; 
-    // }
-    // fputs("Linha 1 (criada com w)\n", fp);
-    // fclose(fp);
+    // "w": cria e escreve 1a linha
+    fp = fopen("modos.txt", "w");
+    if (fp == NULL) { 
+        puts("Erro ao abrir arquivo [w]"); 
+        return 1; 
+    }
+    fputs("Linha 1 (criada com w)\n", fp);
+    fclose(fp);
 
-    // // "a": acrescenta sem apagar o que já existe
-    // fp = fopen("modos.txt", "a");
-    // if (fp == NULL) { 
-    //     puts("Erro ao abrir arquivo [a]");
-    //     return 1; 
-    // }
-    // fputs("Linha 2 (acrescentada com a)\n", fp);
-    // fputs("Linha 3 (acrescentada com a)\n", fp);
-    // fclose(fp);
+    // "a": acrescenta sem apagar o que já existe
+    fp = fopen("modos.txt", "a");
+    if (fp == NULL) { 
+        puts("Erro ao abrir arquivo [a]");
+        return 1; 
+    }
+    fputs("Linha 2 (acrescentada com a)\n", fp);
+    fputs("Linha 3 (acrescentada com a)\n", fp);
+    fclose(fp);
 
-    // // "r": lê e mostra no console
-    // fp = fopen("modos.txt", "r");
-    // if (fp == NULL) { 
-    //     puts("Erro ao abrir arquivo [r]"); 
-    //     return 1; 
-    // }
+    // "r": lê e mostra no console
+    fp = fopen("modos.txt", "r");
+    if (fp == NULL) { 
+        puts("Erro ao abrir arquivo [r]"); 
+        return 1; 
+    }
 
     char buf[80];
-    // printf("Conteudo da primeira linha de modos.txt:\n");
+    printf("Conteudo da primeira linha de modos.txt:\n");
 
-    // // fgets() lê uma linha do arquivo e devolve:
-    // //  o endereço do buffer (linha) se conseguiu ler algo
-    // //  NULL se chegou ao fim do arquivo (ou se ocorreu erro)
-    // fgets(buf, sizeof(buf), fp);
-    // fputs(buf, stdout);  // escreve no console (stdout)
+    // fgets() lê uma linha do arquivo e devolve:
+    //  o endereço do buffer (linha) se conseguiu ler algo
+    //  NULL se chegou ao fim do arquivo (ou se ocorreu erro)
+    fgets(buf, sizeof(buf), fp);
+    fputs(buf, stdout);  // escreve no console (stdout)
 
-    // fclose(fp);
+    fclose(fp);
 
     fp = fopen("modos.txt", "r");
     if (fp == NULL) { 
